@@ -44,9 +44,9 @@ add constraint check_grade check (grade_of_course between 37 and 100 );
 ---------------------------------------------------------------
 insert into student
 values
-(2024901092 ,'dana malkawi', 'CS',3),
-(2024908022,'lana malkawi','BIT',3.5),
-(2025901890,'sara malkawi','CIS',3.95)
+(200982 ,'d m', 'CS',3),
+(288798,'l m','BIT',3.5),
+(203590,'s m','CIS',3.95)
 ;
 insert into course
 values(101,'database',3),
@@ -56,11 +56,11 @@ values(101,'database',3),
 insert into  enrollmant 
 (student_id,course_id,grade_of_course)
 values
-(2024901092,102,90),
-(2024901092, 101,86),
-(2024908022,102,88),
-(2024908022,103,70),
-(2025901890,103,77)
+(200982,102,90),
+(200982, 101,86),
+(288798,102,88),
+(288798,103,70),
+(203590,103,77)
 ;
 
 ---------------------------------------------------------------
